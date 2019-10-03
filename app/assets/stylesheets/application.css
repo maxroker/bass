@@ -14,7 +14,11 @@
  *= require_self
  */
 
- a:hover {
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
   text-decoration: none;
 }
 
@@ -22,8 +26,9 @@ a:hover .thumbnail img {
   opacity: 0.5;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+img {
+  width: 100%;
+  height: auto;
 }
 
 /* Header */
@@ -38,22 +43,21 @@ body {
 
 
 /* Main */
-html, body { 
-  height: 100%; 
-} 
+
 
 .main {
   padding-top: 40px;
-  background-color: #1c1c1e;
-  
-  min-height: 100%; 
+  background-color: #1c1c1e; 
+  min-height: 600px; 
   height: auto !important;
   height: 100%; 
   margin: 0 auto 0;
   vertical-align: bottom;
 }
 
-
+.container-fluid {
+  width: 80%;
+}
 
 
 /* Thumbnail */
@@ -62,7 +66,6 @@ html, body {
   border: 0;
   border-radius: 0;
   padding: 0;
-  height: 350px;
 }
 
 .title,
